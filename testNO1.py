@@ -1,9 +1,8 @@
 import discord
 import asyncio
+import os
 
 client = discord.Client()
-
-token = "NzY2Mjg1OTI4NTA2OTgyNDYw.X4hJYg.lKGXwduGrdcpPKlberkvPyRiP6k"
 
 @client.event
 async def on_ready():
@@ -13,5 +12,5 @@ async def on_ready():
     game = discord.Game('봇이 활동중에 표시될 이름')
     await client.change_presence(status=discord.Status.online, activity=game)
 
-
-client.run(token)
+access_token = os. environ["BOT_TOKEN"]
+client.run(access_token)
