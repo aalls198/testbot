@@ -3,7 +3,7 @@ import asyncio
 
 client = discord.Client()
 
-token = "NzY2Mjg1OTI4NTA2OTgyNDYw.X4hJYg.01R6HACSeQZdzdFF9QtiBuefSB8"
+token = "NzY2Mjg1OTI4NTA2OTgyNDYw.X4hJYg.lKGXwduGrdcpPKlberkvPyRiP6k"
 
 @client.event
 async def on_ready():
