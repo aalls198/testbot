@@ -1,2 +1,2 @@
 discord.py==1.0.9002
-asyncio.py==3.9
+asyncio.py==3.9.6
